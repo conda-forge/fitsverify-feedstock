@@ -1,0 +1,25 @@
+MACOSX_DEPLOYMENT_TARGET:
+- '10.9'
+bzip2:
+- '1'
+c_compiler:
+- clang
+c_compiler_version:
+- '11'
+cfitsio:
+- '3.470'
+channel_sources:
+- conda-forge,defaults
+channel_targets:
+- conda-forge main
+libcurl:
+- '7'
+macos_machine:
+- x86_64-apple-darwin13.4.0
+pin_run_as_build:
+  bzip2:
+    max_pin: x
+  libcurl:
+    max_pin: x
+target_platform:
+- osx-64
