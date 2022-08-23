@@ -1,5 +1,5 @@
 MACOSX_DEPLOYMENT_TARGET:
-- '10.9'
+- '11.0'
 bzip2:
 - '1'
 c_compiler:
@@ -15,11 +15,11 @@ channel_targets:
 libcurl:
 - '7'
 macos_machine:
-- x86_64-apple-darwin13.4.0
+- arm64-apple-darwin20.0.0
 pin_run_as_build:
   bzip2:
     max_pin: x
   libcurl:
     max_pin: x
 target_platform:
-- osx-64
+- osx-arm64
