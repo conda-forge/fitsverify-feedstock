@@ -1,11 +1,11 @@
-About fitsverify
-================
+About fitsverify-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/fitsverify-feedstock/blob/main/LICENSE.txt)
 
 Home: https://heasarc.gsfc.nasa.gov/docs/software/ftools/fitsverify
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/fitsverify-feedstock/blob/main/LICENSE.txt)
 
 Summary: A FITS File Format-Verification Tool
 
