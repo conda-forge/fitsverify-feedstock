@@ -1,5 +1,5 @@
 {% set name = "fitsverify" %}
-{% set version = "4.20" %}
+{% set version = "4.21" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://heasarc.gsfc.nasa.gov/docs/software/ftools/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 3e4f8d34414ad441414386c81f2d241c800025cd1ad21c269d061484e617cef8
+  sha256: 952727cccdf2eaa8a5a1f11e1ed594a22bc19cee3ac015bc46b28ca64b73b6c2
 
 build:
-  number: 4
+  number: 0
   skip: true  # [win]
 
 requirements:
