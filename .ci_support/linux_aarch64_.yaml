@@ -1,11 +1,15 @@
+BUILD:
+- aarch64-conda_cos7-linux-gnu
 bzip2:
 - '1'
 c_compiler:
 - gcc
 c_compiler_version:
 - '12'
+cdt_arch:
+- aarch64
 cdt_name:
-- cos6
+- cos7
 cfitsio:
 - 4.2.0
 channel_sources:
@@ -17,4 +21,4 @@ docker_image:
 libcurl:
 - '8'
 target_platform:
-- linux-64
+- linux-aarch64

@@ -1,11 +1,11 @@
-About fitsverify
-================
+About fitsverify-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/fitsverify-feedstock/blob/main/LICENSE.txt)
 
 Home: https://heasarc.gsfc.nasa.gov/docs/software/ftools/fitsverify
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/fitsverify-feedstock/blob/main/LICENSE.txt)
 
 Summary: A FITS File Format-Verification Tool
 
@@ -36,6 +36,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12817&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/fitsverify-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_aarch64</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12817&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/fitsverify-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_" alt="variant">
                 </a>
               </td>
             </tr><tr>

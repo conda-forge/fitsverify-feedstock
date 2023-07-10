@@ -5,7 +5,7 @@ bzip2:
 c_compiler:
 - clang
 c_compiler_version:
-- '14'
+- '15'
 cfitsio:
 - 4.2.0
 channel_sources:
@@ -13,7 +13,7 @@ channel_sources:
 channel_targets:
 - conda-forge main
 libcurl:
-- '7'
+- '8'
 macos_machine:
 - x86_64-apple-darwin13.4.0
 target_platform:
