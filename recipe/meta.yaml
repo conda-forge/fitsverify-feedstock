@@ -10,12 +10,13 @@ source:
   sha256: a2e388174e9ea0e0490817d9085fa6fbebdd7f082ddfb8dffe120fe4b626311c
 
 build:
-  number: 1
+  number: 2
   skip: true  # [win]
 
 requirements:
   build:
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
     - pkg-config
   host:
     - bzip2
