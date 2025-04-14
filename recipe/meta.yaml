@@ -41,7 +41,6 @@ extra:
   recipe-maintainers:
     - jhunkeler
     - bgannon2
-    - stsci-hack
     - mdlpstsci
     - nden
     - pllim
